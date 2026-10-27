@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jainika 🌸 | CSE (AI & ML) Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Jainika, Computer Science Engineering Student specializing in Artificial Intelligence and Machine Learning. Building intelligent neural models, computer vision systems, and modern web applications with a creative pink aesthetic.">
+  <meta name="keywords" content="Jainika, AI Engineer, Machine Learning, Computer Science, CSE, Deep Learning, Python, PyTorch, Portfolio">
+  <meta name="author" content="Jainika">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Jainika 🌸 | CSE (AI & ML) Engineer Portfolio">
+  <meta property="og:description" content="Engineering student specializing in AI & ML. Discover projects in Deep Learning, Computer Vision, and Full-Stack Engineering.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hidden SVG Gradients for Butterflies -->
+  <svg width="0" height="0" style="position: absolute;" aria-hidden="true">
+    <defs>
+      <linearGradient id="butterfly-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ec4899"/>
+        <stop offset="50%" stop-color="#f472b6"/>
+        <stop offset="100%" stop-color="#c084fc"/>
+      </linearGradient>
+      <linearGradient id="butterfly-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f43f5e"/>
+        <stop offset="60%" stop-color="#fbcfe8"/>
+        <stop offset="100%" stop-color="#ec4899"/>
+      </linearGradient>
+      <linearGradient id="butterfly-grad-3" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#a855f7"/>
+        <stop offset="60%" stop-color="#f472b6"/>
+        <stop offset="100%" stop-color="#fb7185"/>
+      </linearGradient>
+      <linearGradient id="butterfly-grad-4" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#fb7185"/>
+        <stop offset="50%" stop-color="#f472b6"/>
+        <stop offset="100%" stop-color="#f43f5e"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- Ambient Glowing Blurs -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Ambient 3D Animated Butterflies Fluttering in Background -->
+  <div class="ambient-butterflies" aria-hidden="true">
+    <div class="butterfly-wrapper butterfly-1">
+      <div class="butterfly">
+        <div class="butterfly-body"></div>
+        <svg class="wing wing-left" viewBox="0 0 50 80">
+          <path d="M50 40 C45 20, 20 0, 5 10 C-5 20, 0 45, 20 50 C5 60, 10 75, 25 80 C40 85, 48 60, 50 40 Z" fill="url(#butterfly-grad-1)" opacity="0.95"/>
+          <circle cx="20" cy="28" r="5" fill="#fff" opacity="0.5"/>
+          <circle cx="28" cy="65" r="3.5" fill="#fff" opacity="0.5"/>
+        </svg>
+        <svg class="wing wing-right" viewBox="0 0 50 80">
+          <path d="M0 40 C5 20, 30 0, 45 10 C55 20, 50 45, 30 50 C45 60, 40 75, 25 80 C10 85, 2 60, 0 40 Z" fill="url(#butterfly-grad-1)" opacity="0.95"/>
+          <circle cx="30" cy="28" r="5" fill="#fff" opacity="0.5"/>
+          <circle cx="22" cy="65" r="3.5" fill="#fff" opacity="0.5"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="butterfly-wrapper butterfly-2">
+      <div class="butterfly">
+        <div class="butterfly-body"></div>
+        <svg class="wing wing-left" viewBox="0 0 50 80">
+          <path d="M50 40 C45 20, 20 0, 5 10 C-5 20, 0 45, 20 50 C5 60, 10 75, 25 80 C40 85, 48 60, 50 40 Z" fill="url(#butterfly-grad-2)" opacity="0.95"/>
+          <circle cx="22" cy="30" r="5" fill="#fff" opacity="0.55"/>
+        </svg>
+        <svg class="wing wing-right" viewBox="0 0 50 80">
+          <path d="M0 40 C5 20, 30 0, 45 10 C55 20, 50 45, 30 50 C45 60, 40 75, 25 80 C10 85, 2 60, 0 40 Z" fill="url(#butterfly-grad-2)" opacity="0.95"/>
+          <circle cx="28" cy="30" r="5" fill="#fff" opacity="0.55"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="butterfly-wrapper butterfly-3">
+      <div class="butterfly">
+        <div class="butterfly-body"></div>
+        <svg class="wing wing-left" viewBox="0 0 50 80">
+          <path d="M50 40 C45 20, 20 0, 5 10 C-5 20, 0 45, 20 50 C5 60, 10 75, 25 80 C40 85, 48 60, 50 40 Z" fill="url(#butterfly-grad-3)" opacity="0.95"/>
+          <circle cx="22" cy="26" r="4.5" fill="#fff" opacity="0.5"/>
+        </svg>
+        <svg class="wing wing-right" viewBox="0 0 50 80">
+          <path d="M0 40 C5 20, 30 0, 45 10 C55 20, 50 45, 30 50 C45 60, 40 75, 25 80 C10 85, 2 60, 0 40 Z" fill="url(#butterfly-grad-3)" opacity="0.95"/>
+          <circle cx="28" cy="26" r="4.5" fill="#fff" opacity="0.5"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="butterfly-wrapper butterfly-4">
+      <div class="butterfly">
+        <div class="butterfly-body"></div>
+        <svg class="wing wing-left" viewBox="0 0 50 80">
+          <path d="M50 40 C45 20, 20 0, 5 10 C-5 20, 0 45, 20 50 C5 60, 10 75, 25 80 C40 85, 48 60, 50 40 Z" fill="url(#butterfly-grad-4)" opacity="0.95"/>
+          <circle cx="20" cy="25" r="5" fill="#fff" opacity="0.55"/>
+        </svg>
+        <svg class="wing wing-right" viewBox="0 0 50 80">
+          <path d="M0 40 C5 20, 30 0, 45 10 C55 20, 50 45, 30 50 C45 60, 40 75, 25 80 C10 85, 2 60, 0 40 Z" fill="url(#butterfly-grad-4)" opacity="0.95"/>
+          <circle cx="30" cy="25" r="5" fill="#fff" opacity="0.55"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Jainika's Portfolio Home">
+        <span class="brand-butterfly">🦋</span>
+        <span class="brand-name">Jainika</span>
+        <span class="brand-flower">🌸</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About 🌸</a></li>
+          <li><a href="#skills" class="nav-link">Skills 🌷</a></li>
+          <li><a href="#projects" class="nav-link">Projects 🦋</a></li>
+          <li><a href="#playground" class="nav-link">AI Garden ✨</a></li>
+          <li><a href="#education" class="nav-link">Education 🎓</a></li>
+          <li><a href="#contact" class="nav-link">Contact 💌</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button (Cute Pink / Midnight Rose) -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle pink or midnight theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume Modal Trigger Button -->
+        <button id="resume-btn" class="btn btn-primary btn-sm">
+          <span>Resume 📄</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <canvas id="neural-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <!-- Status Badge -->
+        <div class="badge hero-badge">
+          <span class="pulse-dot"></span>
+          <span>🌸 B.Tech CSE (AI & ML) &bull; Open for Internships & Projects 🦋</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Jainika</span> 🌸<br>
+          Engineering the Future of <span class="typing-text-wrapper"><span id="typed-text" class="typed-text">Intelligent AI</span><span class="cursor">&nbsp;</span></span> 🦋
+        </h1>
+
+        <p class="hero-subtitle">
+          Computer Science Engineering student specializing in <strong>Artificial Intelligence & Machine Learning</strong>. I design elegant neural models, computer vision pipelines, and intelligent web applications that make technology feel alive, intuitive, and impactful.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects 🦋</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+
+          <a href="#playground" class="btn btn-outline">
+            <span>🌸 Try AI Playground</span>
+          </a>
+
+          <a href="#contact" class="btn btn-glass">
+            <span>Get in Touch 💌</span>
+          </a>
+        </div>
+
+        <!-- Quick Stats Matrix -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-num" data-target="98.4">0%</div>
+            <div class="stat-label">🌸 Model Accuracy (Vision AI)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-target="15">0+</div>
+            <div class="stat-label">🦋 AI & CS Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-target="350">0+</div>
+            <div class="stat-label">🌷 DSA LeetCode Solved</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">AI & ML</div>
+            <div class="stat-label">✨ Engineering Major</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Console (Pink Cyber-Blossom Terminal) -->
+      <div class="hero-visual">
+        <div class="glass-terminal" id="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="terminal-title">🌸 jainika@ai-blossom: ~ /models/pipeline.py 🦋</div>
+            <div class="terminal-badge">LIVE AI</div>
+          </div>
+
+          <div class="terminal-body">
+            <div class="code-line"><span class="token-kw">import</span> <span class="token-pkg">torch</span>, <span class="token-pkg">transformers</span>, <span class="token-pkg">cv2</span></div>
+            <div class="code-line"><span class="token-kw">class</span> <span class="token-class">JainikaNeuralEngine</span>:</div>
+            <div class="code-line indent-1"><span class="token-kw">def</span> <span class="token-func">__init__</span>(<span class="token-param">self</span>):</div>
+            <div class="code-line indent-2"><span class="token-param">self</span>.major = <span class="token-str">"CSE (AI & ML) 🌸"</span></div>
+            <div class="code-line indent-2"><span class="token-param">self</span>.focus = [<span class="token-str">"Vision"</span>, <span class="token-str">"NLP"</span>, <span class="token-str">"Deep Learning"</span>]</div>
+            <div class="code-line indent-2"><span class="token-param">self</span>.passion = <span class="token-str">"Building intelligent systems ✨"</span></div>
+            <div class="code-line indent-1"><span class="token-kw">def</span> <span class="token-func">create_impact</span>(<span class="token-param">self</span>, input_challenge):</div>
+            <div class="code-line indent-2"><span class="token-kw">return</span> <span class="token-param">self</span>.solve_with_elegance(input_challenge)</div>
+            <div class="code-line output-line">
+              <span class="prompt-arrow">&gt;&gt;&gt;</span> Model Checkpoint: <span class="token-highlight">ResNet-50 + DistilBERT 🌸</span>
+            </div>
+            <div class="code-line output-line">
+              <span class="prompt-arrow">&gt;&gt;&gt;</span> Validation Loss: <span class="token-green">0.0241</span> &bull; Latency: <span class="token-green">14ms</span>
+            </div>
+            <div class="code-line output-line terminal-cursor-line">
+              <span class="prompt-arrow">&gt;&gt;&gt;</span> Ready to transform technology<span class="blink">_</span>
+            </div>
+          </div>
+
+          <!-- Floating Badges on Terminal Card -->
+          <div class="floating-pill pill-top">
+            <span class="pill-icon">🌸</span>
+            <div>
+              <span class="pill-title">Deep Learning</span>
+              <span class="pill-desc">PyTorch & Transformers</span>
+            </div>
+          </div>
+
+          <div class="floating-pill pill-bottom">
+            <span class="pill-icon">🦋</span>
+            <div>
+              <span class="pill-title">Intelligent Vision</span>
+              <span class="pill-desc">Real-Time Precision</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live AI Model Playground (Interactive Flower & Emotion Garden) -->
+  <section class="section playground-section" id="playground">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Interactive AI Garden ✦ 🦋</span>
+        <h2 class="section-title">Test My Live <span class="text-gradient">AI Sentiment & Emotion Engine</span></h2>
+        <p class="section-desc">Experience an interactive simulation of an NLP classification model. Type custom text or choose quick prompts to evaluate sentiment polarity, emotional nuance, and token weights in real time.</p>
+      </div>
+
+      <div class="playground-card glass-panel">
+        <div class="playground-grid">
+          <!-- Input Area -->
+          <div class="playground-input-side">
+            <label for="ai-input" class="playground-label">
+              <span>Input Text to Classify:</span>
+              <span class="label-hint">🌸 Live Natural Language Processing</span>
+            </label>
+            <div class="textarea-wrapper">
+              <textarea id="ai-input" rows="4" placeholder="Type any statement, product review, or feedback to analyze its sentiment, subjectivity, and tone...">This deep learning vision model achieved remarkable accuracy with instantaneous real-time performance!</textarea>
+            </div>
+
+            <!-- Quick Presets -->
+            <div class="preset-prompts">
+              <span class="presets-title">Quick Examples:</span>
+              <button class="preset-chip active" data-text="This deep learning vision model achieved remarkable accuracy with instantaneous real-time performance!">
+                🌸 High Performance
+              </button>
+              <button class="preset-chip" data-text="The gradient descent diverged and model loss is exploding with catastrophic instability.">
+                ⚠️ Model Error
+              </button>
+              <button class="preset-chip" data-text="The neural network processed 50 epochs on the server cluster with standard validation metrics.">
+                📊 Balanced Report
+              </button>
+            </div>
+
+            <div class="playground-actions">
+              <button id="analyze-btn" class="btn btn-primary">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                </svg>
+                <span>Run Model Inference ✨</span>
+              </button>
+              <button id="clear-input-btn" class="btn btn-ghost btn-sm">Clear Text</button>
+            </div>
+          </div>
+
+          <!-- Output Metrics Area -->
+          <div class="playground-output-side">
+            <div class="output-header">
+              <div class="model-badge">
+                <span class="pulse-dot"></span>
+                <span>Transformer NLP Head (Simulation) 🦋</span>
+              </div>
+              <div class="inference-time" id="inference-time">Latency: <strong>16ms</strong></div>
+            </div>
+
+            <!-- Primary Verdict Card -->
+            <div class="verdict-banner" id="verdict-banner">
+              <div class="verdict-icon" id="verdict-icon">🌸</div>
+              <div class="verdict-details">
+                <span class="verdict-label">Predicted Sentiment</span>
+                <span class="verdict-value" id="verdict-value">Strongly Positive</span>
+              </div>
+              <div class="confidence-box">
+                <span class="confidence-num" id="confidence-score">96.8%</span>
+                <span class="confidence-label">Confidence</span>
+              </div>
+            </div>
+
+            <!-- Probability Distribution Bars -->
+            <div class="metric-bars">
+              <div class="metric-row">
+                <div class="metric-info">
+                  <span>Positive 🌸</span>
+                  <span id="pos-percent">96.8%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-pos" id="pos-fill" style="width: 96.8%;"></div>
+                </div>
+              </div>
+
+              <div class="metric-row">
+                <div class="metric-info">
+                  <span>Neutral 🌷</span>
+                  <span id="neu-percent">2.4%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-neu" id="neu-fill" style="width: 2.4%;"></div>
+                </div>
+              </div>
+
+              <div class="metric-row">
+                <div class="metric-info">
+                  <span>Negative 🥀</span>
+                  <span id="neg-percent">0.8%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-neg" id="neg-fill" style="width: 0.8%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Features Extracted -->
+            <div class="extracted-tokens">
+              <span class="token-title">Key Attention Tokens Detected:</span>
+              <div class="token-tags" id="token-tags">
+                <span class="token-badge tag-pos">remarkable (+0.84)</span>
+                <span class="token-badge tag-pos">accuracy (+0.72)</span>
+                <span class="token-badge tag-pos">instantaneous (+0.65)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Background & Passion ✦ 🦋</span>
+        <h2 class="section-title">Bridging Rigorous Science with <span class="text-gradient">Intelligent Computing</span></h2>
+        <p class="section-desc">Passionate about applying mathematical rigor and neural architectures to craft algorithms that can perceive, understand, and decide.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-content">
+          <h3 class="about-lead">
+            I'm <span class="highlight-text">Jainika</span>, an engineering student driven by the passion to build artificial intelligence that is powerful, elegant, and human-centric. 🌸
+          </h3>
+          <p>
+            Pursuing my <strong>B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence & Machine Learning</strong>, I focus on the intersection of deep neural networks, computer vision, and applied software engineering.
+          </p>
+          <p>
+            From training convolutional models for early medical diagnosis to building real-time object tracking pipelines and fine-tuning NLP transformers, I love breaking down complex mathematical algorithms into clean, robust, and deployable code.
+          </p>
+
+          <div class="about-highlights-list">
+            <div class="highlight-item">
+              <div class="highlight-icon">🌸</div>
+              <div>
+                <strong>Strong Core Foundations:</strong> Robust understanding of Data Structures, Algorithms, Linear Algebra, Probability, and Operating Systems.
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🦋</div>
+              <div>
+                <strong>Hands-on AI Modeling:</strong> Practical experience training models in PyTorch, TensorFlow, Scikit-Learn, and Hugging Face.
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">✨</div>
+              <div>
+                <strong>End-to-End Delivery:</strong> Packaging models into RESTful APIs (FastAPI / Flask) and interactive frontends using modern HTML, CSS, and JS.
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary">Let's Collaborate 💌</a>
+            <a href="#projects" class="btn btn-outline">Explore Case Studies 🦋</a>
+          </div>
+        </div>
+
+        <!-- 4 Core Pillars Cards -->
+        <div class="pillars-grid">
+          <div class="pillar-card glass-panel">
+            <div class="pillar-number">01</div>
+            <div class="pillar-icon">🧠</div>
+            <h4 class="pillar-title">Deep Learning & Vision</h4>
+            <p class="pillar-desc">Designing CNNs, transfer learning architectures, and real-time vision pipelines with OpenCV, YOLO, and PyTorch.</p>
+          </div>
+
+          <div class="pillar-card glass-panel">
+            <div class="pillar-number">02</div>
+            <div class="pillar-icon">💬</div>
+            <h4 class="pillar-title">NLP & Language Models</h4>
+            <p class="pillar-desc">Text tokenization, sentiment analysis, entity extraction, and transformer fine-tuning with Hugging Face & PyTorch.</p>
+          </div>
+
+          <div class="pillar-card glass-panel">
+            <div class="pillar-number">03</div>
+            <div class="pillar-icon">⚙️</div>
+            <h4 class="pillar-title">Core CS & Algorithms</h4>
+            <p class="pillar-desc">Optimizing complexity, graphs, dynamic programming, and data structures with 350+ solved challenges.</p>
+          </div>
+
+          <div class="pillar-card glass-panel">
+            <div class="pillar-number">04</div>
+            <div class="pillar-icon">🚀</div>
+            <h4 class="pillar-title">Full-Stack AI Integration</h4>
+            <p class="pillar-desc">Deploying ML pipelines behind high-speed APIs, Docker containers, and responsive user interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Tech Stack Section -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Technical Competencies ✦ 🦋</span>
+        <h2 class="section-title">My Tech Stack & <span class="text-gradient">Core Skills</span></h2>
+        <p class="section-desc">Tools, frameworks, and technologies I leverage to build scalable machine learning workflows and software solutions.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="skills-filter-tabs">
+        <button class="skill-tab active" data-category="all">🌸 All Skills</button>
+        <button class="skill-tab" data-category="ai-ml">🧠 AI & Machine Learning</button>
+        <button class="skill-tab" data-category="languages">💻 Languages & Core CS</button>
+        <button class="skill-tab" data-category="web">🌐 Web & APIs</button>
+        <button class="skill-tab" data-category="tools">⚡ Tools & Platforms</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-grid" id="skills-grid">
+
+        <!-- Python -->
+        <div class="skill-card glass-panel" data-cat="languages ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🐍</div>
+            <div class="skill-info">
+              <h4 class="skill-name">Python</h4>
+              <span class="skill-level">Primary Language &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 95%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>NumPy</span><span>Pandas</span><span>OOP</span><span>Async</span>
+          </div>
+        </div>
+
+        <!-- PyTorch -->
+        <div class="skill-card glass-panel" data-cat="ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🔥</div>
+            <div class="skill-info">
+              <h4 class="skill-name">PyTorch</h4>
+              <span class="skill-level">Deep Learning &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 90%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Neural Nets</span><span>CNN</span><span>Autograd</span><span>CUDA</span>
+          </div>
+        </div>
+
+        <!-- TensorFlow & Keras -->
+        <div class="skill-card glass-panel" data-cat="ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">⚡</div>
+            <div class="skill-info">
+              <h4 class="skill-name">TensorFlow / Keras</h4>
+              <span class="skill-level">ML Framework &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 85%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Transfer Learning</span><span>Keras API</span><span>TensorBoard</span>
+          </div>
+        </div>
+
+        <!-- Scikit-Learn -->
+        <div class="skill-card glass-panel" data-cat="ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">📊</div>
+            <div class="skill-info">
+              <h4 class="skill-name">Scikit-Learn</h4>
+              <span class="skill-level">Classical ML &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">92%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 92%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Classification</span><span>Regression</span><span>Ensembles</span><span>PCA</span>
+          </div>
+        </div>
+
+        <!-- OpenCV -->
+        <div class="skill-card glass-panel" data-cat="ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">👁️</div>
+            <div class="skill-info">
+              <h4 class="skill-name">OpenCV</h4>
+              <span class="skill-level">Computer Vision &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">88%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 88%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Image Processing</span><span>Object Tracking</span><span>Edge Detection</span>
+          </div>
+        </div>
+
+        <!-- Hugging Face & NLP -->
+        <div class="skill-card glass-panel" data-cat="ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🤗</div>
+            <div class="skill-info">
+              <h4 class="skill-name">Hugging Face & NLP</h4>
+              <span class="skill-level">Transformers &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">84%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 84%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>BERT</span><span>Tokenizers</span><span>Pipelines</span><span>Text Gen</span>
+          </div>
+        </div>
+
+        <!-- C++ & Data Structures -->
+        <div class="skill-card glass-panel" data-cat="languages">
+          <div class="skill-header">
+            <div class="skill-badge-icon">⚙️</div>
+            <div class="skill-info">
+              <h4 class="skill-name">C++ & DSA</h4>
+              <span class="skill-level">Problem Solving &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 90%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>STL</span><span>Graphs</span><span>Dynamic Prog</span><span>Memory Mgmt</span>
+          </div>
+        </div>
+
+        <!-- SQL & Database Design -->
+        <div class="skill-card glass-panel" data-cat="languages web">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🗄️</div>
+            <div class="skill-info">
+              <h4 class="skill-name">SQL & Databases</h4>
+              <span class="skill-level">DBMS &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">86%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 86%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>PostgreSQL</span><span>MySQL</span><span>Schema Design</span><span>Indexing</span>
+          </div>
+        </div>
+
+        <!-- Modern Web (HTML5/CSS3/JS) -->
+        <div class="skill-card glass-panel" data-cat="web">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🌐</div>
+            <div class="skill-info">
+              <h4 class="skill-name">HTML5, CSS3 & JavaScript</h4>
+              <span class="skill-level">Frontend Engineering &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">92%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 92%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>ES6+</span><span>Responsive CSS</span><span>DOM Manipulation</span><span>Canvas</span>
+          </div>
+        </div>
+
+        <!-- FastAPI & Flask -->
+        <div class="skill-card glass-panel" data-cat="web ai-ml">
+          <div class="skill-header">
+            <div class="skill-badge-icon">⚡</div>
+            <div class="skill-info">
+              <h4 class="skill-name">FastAPI & Flask</h4>
+              <span class="skill-level">Backend & ML APIs &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">88%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 88%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>REST APIs</span><span>Swagger</span><span>Pydantic</span><span>Model Serving</span>
+          </div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="skill-card glass-panel" data-cat="tools">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🐙</div>
+            <div class="skill-info">
+              <h4 class="skill-name">Git & GitHub</h4>
+              <span class="skill-level">Version Control &bull; Advanced</span>
+            </div>
+            <span class="skill-percentage">94%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 94%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Branching</span><span>CI/CD</span><span>Pull Requests</span><span>Gitflow</span>
+          </div>
+        </div>
+
+        <!-- Docker & Cloud/Linux -->
+        <div class="skill-card glass-panel" data-cat="tools">
+          <div class="skill-header">
+            <div class="skill-badge-icon">🐳</div>
+            <div class="skill-info">
+              <h4 class="skill-name">Docker & Linux</h4>
+              <span class="skill-level">DevOps Foundations &bull; Proficient</span>
+            </div>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-progress-bar">
+            <div class="progress-bar-fill" style="width: 80%;"></div>
+          </div>
+          <div class="skill-tags">
+            <span>Containerization</span><span>Bash Scripting</span><span>Colab GPU</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Practical AI Innovations ✦ 🦋</span>
+        <h2 class="section-title">Featured <span class="text-gradient">AI & Engineering Projects</span></h2>
+        <p class="section-desc">Each project represents a deep dive into neural modeling, computer vision pipelines, or full-stack software integration.</p>
+      </div>
+
+      <!-- Project Filter Buttons -->
+      <div class="project-filters">
+        <button class="proj-filter active" data-filter="all">🌸 All Projects</button>
+        <button class="proj-filter" data-filter="cv">👁️ Computer Vision</button>
+        <button class="proj-filter" data-filter="nlp">💬 NLP & Transformers</button>
+        <button class="proj-filter" data-filter="ml">📊 Machine Learning & Analytics</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1: NeuroVision AI -->
+        <div class="project-card glass-panel" data-category="cv">
+          <div class="project-visual">
+            <svg class="project-svg" viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="340" fill="#260e1f"/>
+              <!-- Grid lines in soft pink -->
+              <path d="M0 68H600M0 136H600M0 204H600M0 272H600" stroke="#4a1d37" stroke-width="1"/>
+              <path d="M120 0V340M240 0V340M360 0V340M480 0V340" stroke="#4a1d37" stroke-width="1"/>
+              <!-- Brain / Medical Outline abstract with pink glow -->
+              <circle cx="300" cy="160" r="90" stroke="url(#proj-grad-pink)" stroke-width="2.5" stroke-dasharray="6 4" fill="rgba(236, 72, 153, 0.08)"/>
+              <circle cx="300" cy="160" r="60" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+              <circle cx="300" cy="160" r="30" stroke="#c084fc" stroke-width="1" stroke-dasharray="3 3"/>
+              <!-- Bounding box overlay -->
+              <rect x="250" y="110" width="110" height="95" rx="8" stroke="#ec4899" stroke-width="2.5" fill="rgba(236, 72, 153, 0.15)"/>
+              <rect x="250" y="90" width="110" height="20" rx="4" fill="#ec4899"/>
+              <text x="255" y="104" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">DETECTED: 98.4% 🌸</text>
+              <!-- Telemetry indicators -->
+              <circle cx="270" cy="140" r="4" fill="#fb7185"/>
+              <circle cx="330" cy="170" r="4" fill="#c084fc"/>
+              <path d="M250 250 L 320 230 L 390 260 L 450 220" stroke="#f472b6" stroke-width="3" fill="none"/>
+              <text x="30" y="45" fill="#fbcfe8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">NEURO-SCAN CLASSIFIER v2.4 🌸</text>
+              <text x="30" y="315" fill="#d977a6" font-family="'JetBrains Mono', monospace" font-size="11">Architecture: ResNet-50 + DenseNet &bull; PyTorch CUDA</text>
+              <defs>
+                <linearGradient id="proj-grad-pink" x1="210" y1="70" x2="390" y2="250" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#ec4899"/>
+                  <stop offset="1" stop-color="#c084fc"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="project-overlay-badge">
+              <span>🌸 Deep Learning &bull; CV</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-metric">Accuracy: 98.4% 🌸</span>
+              <span class="project-status">Production Ready</span>
+            </div>
+            <h3 class="project-title">NeuroVision: Medical MRI & CT Scan Diagnostic AI</h3>
+            <p class="project-desc">
+              An automated medical image classification and abnormality localization system trained on 15,000+ radiology scans using fine-tuned ResNet-50 and Grad-CAM for heat-map explainability.
+            </p>
+            <div class="project-tech-tags">
+              <span>PyTorch</span>
+              <span>OpenCV</span>
+              <span>Grad-CAM</span>
+              <span>FastAPI</span>
+              <span>Docker</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-sm btn-primary view-case-study" data-project="neurovision">
+                <span>View Case Study 🌸</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: OmniSense NLP -->
+        <div class="project-card glass-panel" data-category="nlp">
+          <div class="project-visual">
+            <svg class="project-svg" viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="340" fill="#260e1f"/>
+              <!-- Matrix Grid & Attention Network -->
+              <path d="M50 80 H550 M50 160 H550 M50 240 H550" stroke="#4a1d37" stroke-width="1"/>
+              <!-- Attention weights visualization -->
+              <circle cx="120" cy="160" r="14" fill="#ec4899"/>
+              <text x="120" y="164" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">CLS</text>
+              <circle cx="210" cy="160" r="14" fill="#f472b6"/>
+              <text x="210" y="164" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">T_1</text>
+              <circle cx="300" cy="160" r="18" fill="#c084fc"/>
+              <text x="300" y="164" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">EMO</text>
+              <circle cx="390" cy="160" r="14" fill="#f472b6"/>
+              <text x="390" y="164" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">T_3</text>
+              <circle cx="480" cy="160" r="14" fill="#ec4899"/>
+              <text x="480" y="164" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">SEP</text>
+
+              <!-- Attention arcs in pink/lavender -->
+              <path d="M120 146 Q 210 80 300 142" stroke="#ec4899" stroke-width="2.5" fill="none"/>
+              <path d="M210 146 Q 300 95 390 146" stroke="#f472b6" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
+              <path d="M300 178 Q 390 230 480 174" stroke="#c084fc" stroke-width="2" fill="none"/>
+
+              <!-- Sentiment Spectrum Bars -->
+              <rect x="150" y="270" width="80" height="12" rx="6" fill="#ec4899"/>
+              <rect x="240" y="270" width="120" height="12" rx="6" fill="#f472b6"/>
+              <rect x="370" y="270" width="50" height="12" rx="6" fill="#c084fc"/>
+
+              <text x="30" y="45" fill="#fbcfe8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">TRANSFORMER ATTENTION MATRIX 🦋</text>
+              <text x="30" y="315" fill="#d977a6" font-family="'JetBrains Mono', monospace" font-size="11">Fine-tuned DistilBERT &bull; HuggingFace Transformers</text>
+            </svg>
+            <div class="project-overlay-badge">
+              <span>🦋 NLP &bull; Transformers</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-metric">F1-Score: 0.93 🌸</span>
+              <span class="project-status">Live Demo API</span>
+            </div>
+            <h3 class="project-title">OmniSense: Multilingual Sentiment & Emotion Classifier</h3>
+            <p class="project-desc">
+              Fine-tuned DistilBERT transformer network detecting complex multi-class emotional nuances, sarcasm, and intent across conversational customer dialogues in 3 languages.
+            </p>
+            <div class="project-tech-tags">
+              <span>DistilBERT</span>
+              <span>Hugging Face</span>
+              <span>PyTorch</span>
+              <span>Flask API</span>
+              <span>Chart.js</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-sm btn-primary view-case-study" data-project="omnisense">
+                <span>View Case Study 🌸</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: AeroTrack Vision -->
+        <div class="project-card glass-panel" data-category="cv">
+          <div class="project-visual">
+            <svg class="project-svg" viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="340" fill="#260e1f"/>
+              <!-- Radar Circles & Crosshairs -->
+              <circle cx="300" cy="170" r="130" stroke="#4a1d37" stroke-width="1.5"/>
+              <circle cx="300" cy="170" r="80" stroke="#4a1d37" stroke-width="1.5"/>
+              <circle cx="300" cy="170" r="30" stroke="#4a1d37" stroke-width="1.5"/>
+              <line x1="150" y1="170" x2="450" y2="170" stroke="#4a1d37" stroke-width="1"/>
+              <line x1="300" y1="20" x2="300" y2="320" stroke="#4a1d37" stroke-width="1"/>
+
+              <!-- Target 1 Box -->
+              <rect x="220" y="110" width="70" height="50" rx="6" stroke="#f472b6" stroke-width="2" fill="rgba(244, 114, 182, 0.15)"/>
+              <text x="225" y="105" fill="#f472b6" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">OBJ_01: DRONE (0.97) 🌸</text>
+
+              <!-- Target 2 Box -->
+              <rect x="340" y="180" width="90" height="65" rx="6" stroke="#c084fc" stroke-width="2" fill="rgba(192, 132, 252, 0.15)"/>
+              <text x="345" y="175" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">OBJ_02: VEHICLE (0.94) 🦋</text>
+
+              <!-- Trajectory trail -->
+              <path d="M180 80 Q 200 95 220 110" stroke="#f472b6" stroke-width="2" stroke-dasharray="3 3"/>
+              <path d="M470 260 Q 400 220 340 180" stroke="#c084fc" stroke-width="2" stroke-dasharray="3 3"/>
+
+              <text x="30" y="45" fill="#fbcfe8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">YOLOv8 + ByteTrack REAL-TIME HUD 🌸</text>
+              <text x="30" y="315" fill="#d977a6" font-family="'JetBrains Mono', monospace" font-size="11">Inference: 62 FPS &bull; OpenCV Video Pipeline</text>
+            </svg>
+            <div class="project-overlay-badge">
+              <span>🌸 Real-Time CV</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-metric">62 FPS Real-Time 🌸</span>
+              <span class="project-status">Edge Optimized</span>
+            </div>
+            <h3 class="project-title">AeroTrack: Autonomous Multi-Object Detection & Trajectory Tracking</h3>
+            <p class="project-desc">
+              High-frequency multi-target tracking system combining YOLOv8 architecture with ByteTrack Kalman filters for aerial vehicle and pedestrian trajectory tracking with zero ID switching.
+            </p>
+            <div class="project-tech-tags">
+              <span>YOLOv8</span>
+              <span>OpenCV</span>
+              <span>Kalman Filters</span>
+              <span>Python</span>
+              <span>TensorRT</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-sm btn-primary view-case-study" data-project="aerotrack">
+                <span>View Case Study 🌸</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Predictive Market Pulse -->
+        <div class="project-card glass-panel" data-category="ml">
+          <div class="project-visual">
+            <svg class="project-svg" viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="340" fill="#260e1f"/>
+              <!-- Curves & waves in gradient pink/lavender -->
+              <path d="M50 80 H550 M50 160 H550 M50 240 H550" stroke="#4a1d37" stroke-width="1"/>
+              <path d="M50 220 C 120 200, 160 250, 220 180 C 280 110, 320 190, 380 130 C 440 70, 480 120, 550 80" stroke="url(#stock-grad-pink)" stroke-width="3.5" fill="none"/>
+              <path d="M50 220 C 120 200, 160 250, 220 180 C 280 110, 320 190, 380 130 C 440 70, 480 120, 550 80 V 280 H 50 Z" fill="url(#stock-area-pink)" opacity="0.3"/>
+
+              <circle cx="380" cy="130" r="5" fill="#f472b6"/>
+              <circle cx="550" cy="80" r="6" fill="#c084fc"/>
+
+              <text x="30" y="45" fill="#fbcfe8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700">TIME-SERIES LSTM & ATTENTION PREDICTOR 🌷</text>
+              <text x="30" y="315" fill="#d977a6" font-family="'JetBrains Mono', monospace" font-size="11">MSE: 0.0031 &bull; Scikit-Learn &bull; Pandas &bull; Streamlit</text>
+              <defs>
+                <linearGradient id="stock-grad-pink" x1="50" y1="220" x2="550" y2="80" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#f472b6"/>
+                  <stop offset="0.5" stop-color="#ec4899"/>
+                  <stop offset="1" stop-color="#c084fc"/>
+                </linearGradient>
+                <linearGradient id="stock-area-pink" x1="300" y1="80" x2="300" y2="280" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#ec4899" stop-opacity="0.6"/>
+                  <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="project-overlay-badge">
+              <span>🌷 Time-Series ML</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-metric">MSE: 0.0031 🌸</span>
+              <span class="project-status">Interactive App</span>
+            </div>
+            <h3 class="project-title">StockPulse: Predictive Market & Sentiment Forecasting Engine</h3>
+            <p class="project-desc">
+              End-to-end financial analytics dashboard that combines stacked LSTM neural networks for quantitative time-series forecasting with FinBERT sentiment extraction from financial news feeds.
+            </p>
+            <div class="project-tech-tags">
+              <span>LSTM</span>
+              <span>Pandas</span>
+              <span>Scikit-Learn</span>
+              <span>Streamlit</span>
+              <span>Plotly</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-sm btn-primary view-case-study" data-project="stockpulse">
+                <span>View Case Study 🌸</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education, Coursework & Achievements -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Academic Milestones ✦ 🦋</span>
+        <h2 class="section-title">Education & <span class="text-gradient">Credentials</span></h2>
+        <p class="section-desc">Rigorous academic training coupled with practical competitive programming and specialized certifications.</p>
+      </div>
+
+      <div class="education-grid">
+        <!-- Main Academic Card -->
+        <div class="education-card glass-panel">
+          <div class="edu-badge">🌸 DEGREE PROGRAM</div>
+          <div class="edu-institution-row">
+            <div>
+              <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+              <h4 class="edu-major text-gradient">Computer Science & Engineering (Specialization in AI & ML)</h4>
+            </div>
+            <span class="edu-timeline">2023 &ndash; 2027 (Expected) 🌸</span>
+          </div>
+
+          <p class="edu-summary">
+            Specialized curriculum combining the rigorous foundation of Computer Science with advanced topics in Artificial Intelligence, Deep Neural Networks, Natural Language Processing, and Autonomous Systems.
+          </p>
+
+          <div class="coursework-container">
+            <span class="coursework-title">🌸 Key Core & Advanced Coursework:</span>
+            <div class="coursework-chips">
+              <span>Deep Learning & Neural Networks 🧠</span>
+              <span>Machine Learning & Pattern Recognition 📊</span>
+              <span>Computer Vision 👁️</span>
+              <span>Natural Language Processing 💬</span>
+              <span>Data Structures & Algorithms ⚡</span>
+              <span>Design & Analysis of Algorithms</span>
+              <span>Database Management Systems (DBMS) 🗄️</span>
+              <span>Operating Systems</span>
+              <span>Discrete Mathematics & Linear Algebra</span>
+              <span>Probability & Statistics for Data Science</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications & Accomplishments Column -->
+        <div class="milestones-column">
+          <!-- Cert 1 -->
+          <div class="milestone-card glass-panel">
+            <div class="milestone-icon">🌸</div>
+            <div class="milestone-content">
+              <span class="milestone-org">DeepLearning.AI / Coursera</span>
+              <h4 class="milestone-title">Deep Learning Specialization</h4>
+              <p class="milestone-desc">Mastered neural network design, hyperparameter tuning, CNNs, Sequence Models, and Transformers under Andrew Ng.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="milestone-card glass-panel">
+            <div class="milestone-icon">🦋</div>
+            <div class="milestone-content">
+              <span class="milestone-org">National University Hackathon</span>
+              <h4 class="milestone-title">Top 5 Finalist &bull; AI Innovation Track</h4>
+              <p class="milestone-desc">Developed an assistive vision device prototype powered by lightweight edge models for visually impaired individuals.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="milestone-card glass-panel">
+            <div class="milestone-icon">🌷</div>
+            <div class="milestone-content">
+              <span class="milestone-org">Competitive Programming</span>
+              <h4 class="milestone-title">350+ Problems Solved</h4>
+              <p class="milestone-desc">Consistent problem solving on LeetCode & CodeChef covering Dynamic Programming, Graph Theory, and Tree Traversal algorithms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Connect Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🌸 ✦ Connect & Collaborate ✦ 🦋</span>
+        <h2 class="section-title">Let's Build Something <span class="text-gradient">Intelligent Together</span> 🌸</h2>
+        <p class="section-desc">I am actively looking for AI/ML engineering internships, research opportunities, and collaborative software projects.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info-side">
+          <div class="info-card glass-panel">
+            <div class="info-icon">💌</div>
+            <div class="info-details">
+              <span class="info-label">Direct Email</span>
+              <a href="mailto:jainika.csemil@gmail.com" class="info-value" id="email-address">jainika.csemil@gmail.com</a>
+            </div>
+            <button class="btn btn-ghost btn-sm" id="copy-email-btn" title="Copy email address">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="copy-text">Copy</span>
+            </button>
+          </div>
+
+          <div class="info-card glass-panel">
+            <div class="info-icon">💼</div>
+            <div class="info-details">
+              <span class="info-label">LinkedIn Profile</span>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="info-value">linkedin.com/in/jainika-ai</a>
+            </div>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+
+          <div class="info-card glass-panel">
+            <div class="info-icon">🦋</div>
+            <div class="info-details">
+              <span class="info-label">GitHub Repository</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="info-value">github.com/jainika-codes</a>
+            </div>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+
+          <div class="info-card glass-panel">
+            <div class="info-icon">🌸</div>
+            <div class="info-details">
+              <span class="info-label">Location & Availability</span>
+              <span class="info-value">India &bull; Open for Remote & Onsite Roles</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-side glass-panel">
+          <h3 class="form-title">Send a Direct Message 🌸</h3>
+          <p class="form-subtitle">Have a project, internship inquiry, or just want to discuss machine learning? Reach out below!</p>
+
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your Name <span class="required">*</span></label>
+                <input type="text" id="contact-name" name="name" required placeholder="e.g. Alex Johnson">
+                <span class="form-error" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span class="required">*</span></label>
+                <input type="email" id="contact-email" name="email" required placeholder="alex@company.com">
+                <span class="form-error" id="email-error">Please enter a valid email address</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Subject <span class="required">*</span></label>
+              <input type="text" id="contact-subject" name="subject" required placeholder="Internship Opportunity / AI Collaboration">
+              <span class="form-error" id="subject-error">Please provide a subject</span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message <span class="required">*</span></label>
+              <textarea id="contact-message" name="message" rows="5" required placeholder="Hi Jainika, I saw your portfolio and would love to chat about..."></textarea>
+              <span class="form-error" id="message-error">Please enter your message (at least 10 characters)</span>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+              <span>Send Message 🌸</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Form Success Notification State -->
+            <div id="form-success" class="form-success-banner" style="display: none;">
+              <div class="success-icon">🌸</div>
+              <div>
+                <strong>Thank you! Message dispatched successfully.</strong>
+                <p>I'll review your note and get back to you within 24 hours.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-brand">
+          <span class="brand-butterfly">🦋</span>
+          <span class="brand-name">Jainika</span>
+          <span class="brand-flower">🌸</span>
+        </a>
+        <p class="footer-tagline">
+          CSE (AI & ML) Engineering Student &bull; Crafting impactful machine learning solutions, elegant algorithms, and delightful software.
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <ul class="footer-links">
+          <li><a href="#about">About 🌸</a></li>
+          <li><a href="#skills">Skills 🌷</a></li>
+          <li><a href="#projects">Projects 🦋</a></li>
+          <li><a href="#playground">Playground ✨</a></li>
+          <li><a href="#education">Education 🎓</a></li>
+          <li><a href="#contact">Contact 💌</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jainika. All rights reserved. Designed with love, butterflies & cherry blossoms 🌸🦋</p>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+          <span>Top 🌸</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Resume Modal -->
+  <div class="modal-backdrop" id="resume-modal" aria-hidden="true">
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-pill">Curriculum Vitae 🌸</span>
+          <h3 class="modal-title">Jainika &bull; B.Tech CSE (AI & ML) 🦋</h3>
+        </div>
+        <button class="modal-close" id="close-resume-modal" aria-label="Close Resume Modal">&times;</button>
+      </div>
+
+      <div class="modal-body resume-body">
+        <div class="resume-preview-sheet">
+          <div class="resume-sheet-header">
+            <div>
+              <h2 class="resume-name">JAINIKA 🌸</h2>
+              <p class="resume-sub">Computer Science & Engineering Student (AI & Machine Learning)</p>
+              <p class="resume-contacts">jainika.csemil@gmail.com &bull; github.com/jainika-codes &bull; linkedin.com/in/jainika-ai</p>
+            </div>
+            <a href="mailto:jainika.csemil@gmail.com?subject=Resume%20Inquiry" class="btn btn-primary btn-sm">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download PDF 🌸</span>
+            </a>
+          </div>
+
+          <hr class="resume-divider">
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">🌸 EDUCATION</h4>
+            <div class="resume-row">
+              <div>
+                <strong>B.Tech in Computer Science and Engineering (AI & ML)</strong>
+                <p>Expected Graduation: 2027 &bull; CGPA: 9.1 / 10.0</p>
+              </div>
+              <span class="resume-date">2023 &ndash; Present</span>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">🦋 TECHNICAL SKILLS</h4>
+            <p><strong>Languages:</strong> Python, C++, Java, JavaScript, SQL, HTML5, CSS3</p>
+            <p><strong>AI/ML Frameworks:</strong> PyTorch, TensorFlow, Scikit-Learn, OpenCV, Hugging Face, Pandas, NumPy</p>
+            <p><strong>Developer Tools:</strong> Git, GitHub, Docker, Linux, FastAPI, Flask, VS Code, Google Colab</p>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">✨ KEY PROJECTS</h4>
+            <p><strong>NeuroVision Medical AI:</strong> Built CNN model with 98.4% diagnostic accuracy and Grad-CAM interpretability.</p>
+            <p><strong>OmniSense NLP Engine:</strong> Fine-tuned DistilBERT transformer for multi-emotion detection with 0.93 F1-score.</p>
+            <p><strong>AeroTrack Vision:</strong> Real-time 60+ FPS multi-target tracking system with YOLOv8 and Kalman filtering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Case Study Dynamic Modal -->
+  <div class="modal-backdrop" id="case-study-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-lg glass-panel">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-pill" id="cs-pill">Case Study 🌸</span>
+          <h3 class="modal-title" id="cs-title">Project Case Study</h3>
+        </div>
+        <button class="modal-close" id="close-cs-modal" aria-label="Close Case Study Modal">&times;</button>
+      </div>
+
+      <div class="modal-body" id="cs-body">
+        <!-- Content will be dynamically populated by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite">
+    <span class="toast-icon">🌸</span>
+    <span id="toast-message">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
